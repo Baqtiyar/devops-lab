@@ -5,15 +5,15 @@ This script can be used to create customizable directories
 with a given range in arguments
 Disclaimer
 
-echo "enter root directory name" 
+echo "Enter root directory name" 
 
 read rootdir
 
 mkdir $rootdir && cd $rootdir
 
-echo "root directory created" 
+echo "Root directory created successfully" 
 
-echo "enter sub-directories name" 
+echo "Enter sub-directories name" 
 
 read subdir
 
@@ -22,6 +22,6 @@ do
 	mkdir ${subdir}${i}
 done 
 
-echo "sub-directories created successfully"
+echo "Sub-directories created successfully"
 
 echo "End"
