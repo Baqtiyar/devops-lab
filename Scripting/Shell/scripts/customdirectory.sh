@@ -23,5 +23,6 @@ do
 done 
 
 echo "Sub-directories created successfully"
+echo "Enjoy your directories"
 
 echo "End"
