@@ -22,6 +22,6 @@ do
 	mkdir ${subdir}${i}
 done 
 
-echo "sub-directories created"
+echo "sub-directories created successfully"
 
 echo "End"
