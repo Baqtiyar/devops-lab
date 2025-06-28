@@ -24,4 +24,4 @@ done
 
 echo "sub-directories created"
 
-echo "end"
+echo "End"
