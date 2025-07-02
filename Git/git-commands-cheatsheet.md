@@ -1,6 +1,8 @@
 # Git Commands Cheatsheet
 
-I have created this handy reference for commonly used Git commands in organisations, each with a simple use case. It’s ideal for beginners and anyone looking to understand version control basics in real-world projects. Of course, Git is not limited to these commands, but this collection serves as a solid starting point. Enjoy! 
+I have created this handy reference for commonly used Git commands in organisations, each with a simple use case. It’s ideal for beginners and anyone looking to understand version control basics in real-world projects. 
+
+Of course, Git is not limited to these commands, but this collection serves as a solid starting point. Enjoy! 
 
 ---
 
