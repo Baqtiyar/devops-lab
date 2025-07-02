@@ -48,16 +48,15 @@ Remember to keep an eye on your inbox before your free tier ends —
 
 Create a secure note or document to track important AWS account details (especially if you're managing multiple accounts). You can include:
 
-AWS account email address
+→ AWS account email address
 
-Account name
+→ Account name
 
-IAM user name(s)
+→ Root user details (avoid saving the password — instead, note password hints or use a password manager)
 
-Root user details (avoid saving the password — instead, note password hints or use password manager)
+→ IAM user name(s)
 
-IAM user setup details (like MFA status, permissions)
+→ IAM user setup details (like MFA status, permissions)
 
-Free tier start date
+→ Free tier start date
 
-Reminder date for reviewing usage
