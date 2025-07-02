@@ -1,6 +1,12 @@
 # How to Check Your AWS Free Tier Expiry Date
 
-Confused about when your AWS Free Tier ends? Here’s a step-by-step guide to help you find out using both email and the AWS Management Console.
+When I created my first AWS account, I faced several challenges. One of the biggest questions I had was:
+“When does my AWS Free Tier end?”
+
+I wanted to be careful with my usage to avoid unexpected charges, but I couldn't find the expiry date easily.
+
+So, I created this step-by-step guide to help others (and my future self) check the AWS Free Tier expiry date using both email and the AWS Management Console.
+
 
 ---
 
@@ -27,7 +33,7 @@ This email includes the date your **12-month free tier** starts.
 
 ## 3. Set a Reminder
 
-Set a reminder in your personal calendar (Google Calendar, Outlook, or phone) for **11 months after account creation** to review your AWS usage and avoid surprise charges.
+Set a reminder in your calendar (Google Calendar, Outlook, or phone) for **11 months after account creation** to review your AWS usage and avoid surprise charges.
 
 ---
 
@@ -38,15 +44,20 @@ Remember to keep an eye on your inbox before your free tier ends —
 
 ---
 
-## I'll provide bonus tip
+## I'll provide a bonus tip
 
 Create a secure note or document to track important AWS account details (especially if you're managing multiple accounts). You can include:
 
 AWS account email address
 
 Account name
+
 IAM user name(s)
+
 Root user details (avoid saving the password — instead, note password hints or use password manager)
+
 IAM user setup details (like MFA status, permissions)
+
 Free tier start date
+
 Reminder date for reviewing usage
