@@ -1,6 +1,6 @@
 # How to Check Your AWS Free Tier Expiry Date
 
-When I created my first AWS account, I faced several challenges. One of the biggest questions I had was:
+When I created my first AWS account on July 30 2021, I faced several challenges. One of the biggest questions I had was:
 “When does my AWS Free Tier end?”
 
 I wanted to be careful with my usage to avoid unexpected charges, but I couldn't find the expiry date easily.
