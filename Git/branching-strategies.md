@@ -1,5 +1,5 @@
 
-# Interview Question: What Branching Strategies Have You Used?
+# Branching Strategies
 
 There is no single "best" branching strategy. Every organization defines its own strategy based on team size, workflow, release cycles, and tooling. Below are two real-world examples from different companies that implemented unique branching strategies.
 
