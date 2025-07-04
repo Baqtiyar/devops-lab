@@ -1,11 +1,11 @@
 
 # 🐳 What I Learned About Docker Today
 
-## 🚀 Docker: A Modern Take on Virtualization
-Docker is considered an advanced form of virtualization. Unlike traditional virtual machines (VMs) that virtualize entire hardware systems, Docker uses **containerization**, which means it virtualizes the operating system level. This makes it more lightweight, faster to start, and less resource-intensive.
+## 🚀 Docker: A Modern Take on Virtualisation
+Docker is considered an advanced form of virtualisation. Unlike traditional virtual machines (VMs) that virtualise entire hardware systems, Docker uses **containerization**, which means it virtualises the operating system level. This makes it more lightweight, faster to start, and less resource-intensive.
 
 ## 🔄 Dynamic Resource Usage
-One of Docker’s biggest strengths is **on-demand resource utilization**. Unlike VMs that allocate fixed amounts of CPU, RAM, and storage to each instance—regardless of whether those resources are being used—Docker containers **consume resources only when needed**. Once a container completes its task, it releases the resources, making the system more efficient.
+One of Docker’s biggest strengths is **on-demand resource utilisation**. Unlike VMs that allocate fixed amounts of CPU, RAM, and storage to each instance—regardless of whether those resources are being used—Docker containers **consume resources only when needed**. Once a container completes its task, it releases the resources, making the system more efficient.
 
 ## 🧪 Easy Sharing for Testing and Development
 Docker simplifies collaboration between development and testing teams. A Docker image can be **shared like a file**—this means testers and other teams can run the exact same environment that developers used, eliminating the classic "it works on my machine" problem. This helps ensure consistency and reproducibility across environments.
