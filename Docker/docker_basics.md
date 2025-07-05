@@ -22,3 +22,16 @@ Technically, Docker containers **share the host OS kernel** rather than using a 
 | Startup Time                    | Seconds                                     | Minutes                                  |
 | Image Sharing                   | Easy (via Docker Hub or registries)         | Difficult (large VM images)              |
 | OS Isolation                    | Partial (shared kernel)                     | Full (own kernel)                        |
+
+## What is Docker Architecture & Container?
+- Docker is an open-source centralised platform designed to create, deploy and run applications.
+- Docker is a tool that performs OS-level virtualisation, also known as containerization, whereas VMware/Virtual-Machine uses hardware-level virtualisation.
+- Docker uses containers on the host OS to run applications. It allows applications to use the same Linux kernel on the host computers rather than creating a whole virtual OS.
+- We can install Docker on any OS, but Docker Engine runs natively on a Linux distribution.
+- Docker is written in the Go language.
+- Before Docker, many users faced the problem that a particular code was running in the developer's system but not in the user's/tester's system.
+- Docker was first released in March 2013. It is developed by Solomon Hykes and Sebastian Pahl.
+
+
+
+
