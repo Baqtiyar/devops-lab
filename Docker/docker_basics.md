@@ -39,6 +39,10 @@ Technically, Docker containers **share the host OS kernel** rather than using a 
 - It takes very little time to create a container.
 - Docker enables you to build a container image and use that same image across every step of the deployment process.
 
+## Disadvantages of Docker
+- Docker is not a good solution for applications that require a rich GUI.
+- Difficult to manage a large number of containers. 
+
 
 
 
