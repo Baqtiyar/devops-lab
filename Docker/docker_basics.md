@@ -41,7 +41,9 @@ Technically, Docker containers **share the host OS kernel** rather than using a 
 
 ## Disadvantages of Docker
 - Docker is not a good solution for applications that require a rich GUI.
-- Difficult to manage a large number of containers. 
+- Difficult to manage a large number of containers.
+- Docker does not provide cross-platform compatibility means that if an application is designed to run in a Docker container on Windows, then it can't run on Linux or vice versa.
+- Docker is suitable when the development OS and testing OS are the same; if the OS is different, we should use a virtual machine.
 
 
 
