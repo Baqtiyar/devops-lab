@@ -37,7 +37,7 @@ Stops the container named `baqtiyarcontainer`.
 ### `docker search jenkins`
 Searches Docker Hub for images related to Jenkins.
 
-### `docker pull jenkins`
+### `docker pull jenkins/jenkins`
 Downloads the Jenkins image from Docker Hub.
 
 ## 🔄 Working with Containers
