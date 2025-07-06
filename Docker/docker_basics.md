@@ -32,6 +32,14 @@ Technically, Docker containers **share the host OS kernel** rather than using a 
 - Before Docker, many users faced the problem that a particular code was running in the developer's system but not in the user's/tester's system.
 - Docker was first released in March 2013. It is developed by Solomon Hykes and Sebastian Pahl.
 
+## Advantages of Docker
+- No pre-allocation of RAM.
+- Less Cost
+- You can re-use the image.
+- It takes very little time to create a container.
+- Docker enables you to build a container image and use that same image across every step of the deployment process.
+
+
 
 
 
