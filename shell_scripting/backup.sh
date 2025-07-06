@@ -2,7 +2,7 @@
 
 <<Disclaimer
 This script will take backups from source to target
-In future we will do cronjob as well
+In future, we will do a cronjob as well
 Disclaimer
 
 
@@ -15,6 +15,6 @@ echo "Backup Started"
 
 echo "Backing up to $backup_filename..."
 
-tar -czvf "${tgt_dir}/${backup_filename}" "$sr_dir"
+tar -czvf "${tgt_dir}/${backup_filename}" "$src_dir"
 
 echo "Backup complete"
