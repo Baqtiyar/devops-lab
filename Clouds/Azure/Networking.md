@@ -38,3 +38,28 @@ There are two main types of networks:
 ### Where Does the Public IP Come From in Azure?
 
 - Allocated by **Azure from its pool of global public IP addresses**, when creating a virtual machine.
+
+# Purpose of IP Addresses in Azure
+
+- The main purpose of an IP address is to enable communication.
+- **Private IP addresses** are used for communication between resources within an Azure Virtual Network (VNet).
+- **Public IP addresses** allow:
+  - Inbound communication from the internet.
+  - Outbound communication to the internet from Azure resources.
+- Many resources in Azure require a unique IP address to identify and communicate with other services.
+
+## 🔹 What is IPv4?
+
+- **IPv4** stands for *Internet Protocol version 4*.
+- It uses a **32-bit address format**, which allows for around **4.3 billion unique IP addresses**.
+- The format looks like this: `192.168.0.1` (four numbers separated by dots).
+- It is the most widely used version of IP today.
+
+## 🔹 What is IPv6?
+
+- **IPv6** stands for *Internet Protocol version 6*.
+- IPv6 uses **128-bit addresses**, allowing for **340 undecillion (340×10³⁶)** IP addresses.
+- The format looks like: `2001:0db8:85a3::8a2e:0370:7334`
+- IPv6 is being adopted gradually, but IPv4 is still dominant in most networks.
+
+
