@@ -63,3 +63,41 @@ There are two main types of networks:
 - IPv6 is being adopted gradually, but IPv4 is still dominant in most networks.
 
 
+# What Are SSH, HTTP, HTTPS, RDP When Creating a VM?
+
+A **port** is like a doorway into your virtual machine that allows specific types of network traffic to enter or leave.
+
+When you create a Virtual Machine (VM) in Azure, you’ll see options to open slots like SSH and HTTP. These define how you can connect to or access the VM:
+
+- **SSH (Port 22)** – Used to remotely connect to a **Linux VM**. Works only if the VM has a **public IP** and **port 22 is open**.
+- **HTTP (Port 80)** – Used when hosting a **web application or website** on the VM. Opening port 80 lets anyone on the internet access your site by typing the VM’s **public IP** into their browser.
+- **HTTPS (Port 443)** – Used for **secure web traffic** (TLS/SSL).
+- **RDP (Port 3389)** – Used for **Remote Desktop access** to **Windows VMs**.
+
+---
+
+## Network Port in Laptop?
+
+A **network port** in your laptop works just like a port in a **Virtual Machine (VM)**.  
+A network port is a **virtual "door"** through which data enters or leaves a device (like your laptop or a VM). Each port is associated with a specific service (like SSH, HTTP, file sharing, etc.).
+
+### 🏢 Real-World Analogy:
+
+- Imagine your **laptop or VM** as an **apartment building**.
+- Each **port** is like a **door** to a specific room/service:
+  - Room 22 = SSH
+  - Room 80 = HTTP
+- Data from the internet or other systems enters through these doors.
+
+---
+
+## 🔐 What is a Firewall (in Your Laptop and VM)?
+
+A **firewall** is like a **security guard** that watches all the doors (ports):
+
+- It decides which ports are **open or closed**, and **who can use them**.
+- It **blocks bad traffic** and **allows trusted traffic** based on the rules you set.
+- In **AWS**, it's called **Security Groups**.
+- In **Azure**, it's called **Network Security Groups (NSG)**.
+
+
