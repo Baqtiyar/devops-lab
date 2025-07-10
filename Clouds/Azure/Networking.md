@@ -101,3 +101,28 @@ A **firewall** is like a **security guard** that watches all the doors (ports):
 - In **Azure**, it's called **Network Security Groups (NSG)**.
 
 
+# Creating a Network in Azure (Virtual Network - VNet)
+
+In Azure, a **Virtual Network (VNet)** is used to create a logical, isolated network environment in the cloud. It allows Azure resources like Virtual Machines (VMs) to securely communicate with each other, the internet, and on-premises networks.
+
+---
+
+## Example: Setting Up VMs in a Virtual Network (VNet) on Azure
+
+Let’s say you’ve created 6 Virtual Machines (VMs) in Azure, and you want them all to exist within the same Virtual Network (VNet). Here’s how it works:
+
+### 1. VNet and Subnets:
+- First, you create a VNet in a specific region.
+- Inside this VNet, you create two subnets:
+  - **Subnet 1** for the Finance application.
+  - **Subnet 2** for the Development team.
+
+### 2. Placing VMs in Subnets:
+- You deploy 3 VMs in **Subnet 1** to host your Finance application.
+- You deploy 3 VMs in **Subnet 2** for the Development environment.
+
+### 3. IP Address Assignment:
+- Each VM is automatically assigned a **private IP address** from the subnet's IP range.
+- Optionally, you can assign **public IPs** if external access is needed.
+
+
