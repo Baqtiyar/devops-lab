@@ -125,4 +125,45 @@ Let’s say you’ve created 6 Virtual Machines (VMs) in Azure, and you want the
 - Each VM is automatically assigned a **private IP address** from the subnet's IP range.
 - Optionally, you can assign **public IPs** if external access is needed.
 
+# Why Do We Need Multiple Subnets in a VNet?
+
+## 1. Manageability
+A Virtual Network (VNet) can host many resources (Azure services). Dividing it into smaller segments—called **subnets**—makes it easier to organize, monitor, and manage resources effectively.
+
+## 2. Isolation and Separation
+Subnets allow you to separate environments (e.g., **Finance, Development, Testing**) and apply customized security rules, routing policies, and access controls using:
+
+- **Network Security Groups (NSGs)**
+- **Route tables**
+
+## Key Points About VNet and Subnets
+
+- A **Virtual Network (VNet)** is a **regional resource**.
+  - When you create a VNet, you must select a specific region.
+  - The VNet is confined to that region.
+  - Resources within that VNet can only communicate with other resources in the **same region**, unless you establish special connections.
+
+### Communication Rules:
+
+- **Subnets within the same VNet** communicate by default.
+  - All subnets inside the same VNet can talk to each other unless restricted by **NSGs**.
+  
+- **VNets within the same region** communicate via **VNet Peering**.
+
+- **VNets in different regions** communicate via **Global VNet Peering**.
+
+## Disaster Recovery Consideration
+Since a VNet is tied to a specific region, if that region goes down, companies often create **replicas of VNets in different (far away) regions** for **high availability and disaster recovery**.
+
+---
+
+## Azure Resource Hierarchy Structure
+
+Subscription
+└── Resource Group
+└── Virtual Network (VNet)
+└── Subnet
+└── Virtual Machine (VM)
+
+
 
