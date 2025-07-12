@@ -165,5 +165,35 @@ Subscription
 └── Subnet
 └── Virtual Machine (VM)
 
+---
+
+### Types of Ports (By Number Range):
+
+| Port Range  | Name                 | Description                                                             |
+| ----------- | -------------------- | ----------------------------------------------------------------------- |
+| 0–1023      | **Well-known ports** | Reserved for standard services (e.g., HTTP = 80, HTTPS = 443, SSH = 22) |
+| 1024–49151  | **Registered ports** | Used by companies and developers (e.g., 3306 for MySQL)                 |
+| 49152–65535 | **Ephemeral ports**  | Random ports used by clients to initiate connections                    |
+
+
+🌐 **How does a server become a web server using a port?**
+
+Here’s the recipe:
+
+1. The server must run a web server software like:
+   - Apache  
+   - Nginx  
+   - Node.js (Express)  
+   - Python Flask or Django
+
+2. That software listens on:
+   - Port **80** for HTTP
+   - Port **443** for HTTPS
+
+3. The firewall/security group must allow incoming traffic to that port.
+
+✅ Now the server is ready to accept connections from any browser.
+
+
 
 
