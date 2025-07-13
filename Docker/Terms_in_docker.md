@@ -1,5 +1,6 @@
 # Docker Overview
-- These are the major terms used in Docker. 
+
+These are the major terms used in Docker. 
 
 ## Docker Engine
 - The Docker daemon runs on the Host OS.
