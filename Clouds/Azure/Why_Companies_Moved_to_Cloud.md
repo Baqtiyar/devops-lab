@@ -76,3 +76,44 @@ Companies migrate to the cloud due to several key factors:
    - *Examples:*
      - Banks prioritize governance.
      - Tech companies may focus on latency.
+     - 
+
+
+
+# Types of Cloud Services
+
+There are three main types of cloud services:
+
+- **Infrastructure as a Service (IaaS)**
+- **Platform as a Service (PaaS)**
+- **Software as a Service (SaaS)**
+
+---
+
+## Understanding Infrastructure
+
+Examples of infrastructure in different domains:
+
+- **For College** – whiteboard, benches, computers, paper, pens, etc.
+- **For Hospital** – medicine, ICU, beds, surgical equipment, etc.
+- **For IT** – 
+  - **Server**: CPU/GPU, RAM  
+  - **Storage**: HDD, SSD  
+  - **Network**: Router, Switches, Gateway, Firewalls  
+  - **Internet connectivity**
+
+If you get these components from the cloud, it is called **Infrastructure as a Service (IaaS)**.
+
+In IaaS, the user can manually configure everything — including CPU, memory, and storage — just like setting up a physical machine.
+
+---
+
+## Platform as a Service (PaaS)
+
+PaaS includes everything in IaaS plus:
+
+- Operating System (OS)
+- Middleware
+- Runtime Environments
+
+It provides a **pre-configured platform** where developers can deploy and manage applications without worrying about the underlying infrastructure.
