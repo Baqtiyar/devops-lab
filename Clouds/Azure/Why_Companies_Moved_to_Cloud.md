@@ -117,3 +117,40 @@ PaaS includes everything in IaaS plus:
 - Runtime Environments
 
 It provides a **pre-configured platform** where developers can deploy and manage applications without worrying about the underlying infrastructure.
+
+# Types of Cloud Deployment Models
+
+## 1. Public Cloud
+
+### Key Points:
+- Accessible to anyone via the internet across the globe.
+- **Examples**:
+  - AWS (Amazon Web Services)
+  - Microsoft Azure
+  - Google Cloud Platform
+  - Oracle
+  - Alibaba
+  - IBM Cloud
+- **Secure**: Data is not exposed to others; uses encryption techniques, compliance, and access controls.
+
+---
+
+## 2. Private Cloud
+
+### Key Points:
+- Hosted either on-premises or by a third-party provider but for one client only.
+- More expensive to set up and manage.
+- **Used by**: Large enterprises, government agencies.
+- **Tool**: OpenStack is a common tool to deploy and manage private cloud environments.
+
+---
+
+## 3. Hybrid Cloud
+
+### Key Points:
+- **Public + Private**
+- Like a hybrid vehicle — uses both fuel and battery as needed.
+- **Flexibility**: Use public cloud for general workloads and private cloud for sensitive data.
+- **Enables**: Cost optimization.
+- **Example use case**: A company runs its sensitive payroll app on private cloud but uses public cloud for employee training apps.
+
