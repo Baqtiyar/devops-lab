@@ -17,4 +17,16 @@ In **2014**, Google introduced **Kubernetes**, an open-source platform written i
 ## Problems with Scaling up the Containers. 
  - Container cannot communicate with each other. 
  - Autoscaling and load balancing was not possible. 
- - Containers had to be managed carefully. 
+ - Containers had to be managed carefully.
+
+
+## Features of Kubernetes 
+- Orchestration clustering of any no. of containers running on different networks.
+- Auto-scaling
+- Auto-Healing
+- Load Balancing
+- Platform Independent (Cloud/Virtual/Physical)
+- Fault Tolerance (Node/POD Failure)
+- Roll Back (Going back to previous version)
+- Health Monitoring of containers.
+- Batch Execution (one time, sequential, paralllel)
