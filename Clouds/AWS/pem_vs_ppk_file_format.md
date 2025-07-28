@@ -68,4 +68,4 @@ Both are **private key files** used to securely connect to remote servers (like 
 
 ---
 
-*Created for quick reference and GitHub documentation.*
+*Created for quick reference.
