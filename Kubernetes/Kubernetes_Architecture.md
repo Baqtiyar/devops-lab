@@ -1,5 +1,10 @@
 # Kubernetes Architecture
 
+## 📅 Today I Learned
+
+I explored the architecture of Kubernetes and how its components work together to manage containerized applications at scale. I explored how the control plane makes decisions, how nodes run workloads, and how various components like `kube-apiserver`, `etcd`, and `kubelet` interact to maintain the desired state of the cluster.
+
+These notes summarize the key components and concepts I studied as part of my learning journey.
 ## 📦 Core Components
 
 ### 1. **Control Plane Components** (Master Node)
