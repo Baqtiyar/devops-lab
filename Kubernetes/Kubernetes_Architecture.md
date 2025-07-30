@@ -52,6 +52,26 @@ These components run on every worker node and manage the containerized workloads
 
 ---
 
+# 📦 Kubernetes Pod Overview
+
+A **Pod** is the smallest and simplest deployable unit in Kubernetes.  
+It represents a single instance of a running process in a cluster and can contain **one or more containers** that share:
+
+- The same **network namespace**
+- **Storage volumes**
+- **Lifecycle**
+
+Containers inside a Pod communicate via `localhost` and are usually tightly coupled, functioning as a single cohesive unit.
+
+Pods are **ephemeral by design**—if a Pod crashes or is terminated, Kubernetes does not resurrect the same Pod but can create a new identical one through higher-level controllers like **Deployments**, **ReplicaSets**, or **StatefulSets**.
+
+---
+
+🛠️ Example Use Cases for Pods:
+- Running a single-container application
+- Co-locating helper containers (e.g., log shipper + main app)
+
+
 ## 🗺️ Cluster Flow Summary
 
 1. `kubectl` sends request to `kube-apiserver`.
